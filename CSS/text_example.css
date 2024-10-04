@@ -1,24 +1,28 @@
-.ex_5a{
+.ex_5a
+{
   font-family: Roboto;
   font-size: 20px;
   font-weight: bold;
 }
 
-.ex_5b{
+.ex_5b
+{
   font-family: Roboto;
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 0;
 }
 
-.ex_5b_1{
+.ex_5b_1
+{
   font-family: Roboto;
   font-size: 20px;
   color: red;
   margin-top: 0;
 }
 
-.ex_5c{
+.ex_5c
+{
   font-family: Roboto;
   font-size: 25px;
   font-weight: bold;
@@ -31,7 +35,8 @@
   margin-bottom: 30px;
   color: rgb(167, 165, 165);
 }
-.ex_5c_2{
+.ex_5c_2
+{
   font-family: Roboto;
   font-size: 15px;
   width: 300px;
@@ -39,7 +44,8 @@
   margin-top: 0;
 }
 
-.start_button{
+.start_button
+{
   background-color: rgb(15, 172, 15);
   color: white;
   width: 130px;
@@ -51,11 +57,13 @@
   transition: background-color 1s,
   color 1s;
 }
-.start_button:hover{
+.start_button:hover
+{
   background-color: green;
   opacity: 0.8;
 }
-.start_button:active{
+.start_button:active
+{
   opacity: 0.7;
 }
 
