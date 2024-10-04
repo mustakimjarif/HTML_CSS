@@ -1,0 +1,221 @@
+.request-button
+{
+  background-color: black;
+  color: white;
+  height: 36px;
+  width: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-size: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.request-button:hover{
+  opacity: 0.8;
+}
+.request-button:active{
+  opacity: 0.7;
+}
+
+
+.cart-button{
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  width: 140px;
+  height: 25px;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 1s,
+  color 1s;
+}
+
+.cart-button:hover{
+  background-color: rgb(231, 196, 22);
+}
+.cart-button:active{
+  opacity: 0.7;
+}
+
+.github-button{
+  background-color: rgb(46,164,79);
+  color: white;
+  border: none;
+  height: 30px;
+  width: 80px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-size: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.github-button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+.github-button:active{
+  opacity: 0.7;
+}
+
+
+
+.bootstrap-button{
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 1s,
+  color 1s;
+}
+
+.bootstrap-button:hover{
+  background-color: rgb(65, 13, 114);
+}
+.bootstrap-button:active{
+  opacity: 0.7;
+}
+
+
+.download-button{
+  background-color: rgb(238, 240, 242);
+  color: black;
+  border: none;
+  height: 36px;
+  width: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 1s,
+  color 1s;
+}
+
+.download-button:hover{
+  background-color: rgb(151, 151, 151);
+}
+.download-button:active{
+  opacity: 0.7;
+}
+
+
+
+.linkedin-button{
+  background-color: rgb(10,102,194);
+  color: white;
+  border: none;
+  height: 30px;
+  width: 180px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+  vertical-align: top;
+  transition: background-color 1s,
+  color 1s;
+}
+
+.linkedin-button:hover{
+  background-color: darkblue;
+}
+.linkedin-button:active{
+  opacity: 0.7;
+}
+
+.save-button{
+  background-color: rgb(238, 240, 242);
+  color: rgb(62, 62, 237);
+  border-color: blueviolet;
+  height: 30px;
+  width: 62px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 28px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: top;
+  cursor: pointer;
+}
+.save-button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+.save-button:active{
+  opacity: 0.7;
+}
+.line{
+  color: green;
+}
+
+.cart1-button{
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  width: 140px;
+  height: 25px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 1s,
+    color 1s;
+}
+
+.cart1-button:hover{
+  background-color: rgb(231, 196, 22);
+}
+.cart1-button:active{
+  opacity: 0.7;
+}
+
+.buy-button{
+  background-color: rgb(228, 173, 70);
+  border: none;
+  height: 25px;
+  width: 120px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 1s, color 1s;
+}
+
+.buy-button:hover{
+  background-color: rgb(169, 112, 7);
+}
+.buy-button:active{
+  opacity: 0.7;
+}

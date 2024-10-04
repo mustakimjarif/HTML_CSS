@@ -1,0 +1,32 @@
+.thumbnail
+{
+  width: 280px;
+  height: 160px;
+  display: inline-block;
+}
+.thumbnail_text
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 15px;
+  width: 260px;
+}
+.thumbnail_author
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+  color: rgb(116, 115, 115);
+  display: block;
+  margin-top: 25px;
+}
+.thumbnail_text_3
+{
+  font-size: 13px;
+  color: rgb(116, 115, 115);
+  display: block;
+}
+.name_textbox{
+  
+  display: block;
+}
+

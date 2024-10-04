@@ -1,0 +1,201 @@
+.ex_5a{
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ex_5b{
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.ex_5b_1{
+  font-family: Roboto;
+  font-size: 20px;
+  color: red;
+  margin-top: 0;
+}
+
+.ex_5c{
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.ex_5c_1{
+  font-family: Roboto;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: rgb(167, 165, 165);
+}
+.ex_5c_2{
+  font-family: Roboto;
+  font-size: 15px;
+  width: 300px;
+  line-height: 25px;
+  margin-top: 0;
+}
+
+.start_button{
+  background-color: rgb(15, 172, 15);
+  color: white;
+  width: 130px;
+  height: 40px;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  transition: background-color 1s,
+  color 1s;
+}
+.start_button:hover{
+  background-color: green;
+  opacity: 0.8;
+}
+.start_button:active{
+  opacity: 0.7;
+}
+
+.ex_5d{
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.ex_5d_1{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 85px;
+  margin-top: 20px;
+  
+}
+
+.ex_5d_2{
+  font-family: Roboto;
+  font-size: 15px;
+  color: blue;
+  padding-left: 155px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.ex_5d_2:hover{
+  text-decoration: underline;
+
+}
+.ex_5d_2:active{
+  opacity: 0.7;
+}
+
+.ex_5e{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 179px;
+  margin-top: 40px;
+  color: rgb(255, 68, 0);
+}
+
+.ex_5e_1{
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 136px;
+  margin-top: -11px;
+}
+
+.ex_5e_2{
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: -20px;
+  padding-left: 30px;
+}
+
+.ex_5e_3{
+  font-family: Roboto;
+  font-size: 15px;
+  color: gray;
+  padding-left: 157px;
+  margin-top: -30px;
+}
+
+.buy_button{
+  font-family: Roboto;
+  font-weight: bold;
+  background-color: blueviolet;
+  color: white;
+  margin-left: 175px;
+  border: none;
+  width: 40px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.buy_button:hover{
+  opacity: 0.8;
+}
+.buy_button:active{
+  opacity: 0.5;
+}
+
+.ex_5f{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.ex_5f_1{
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(103, 102, 102);
+}
+
+.ex_5f_2{
+  font-family: Roboto;
+  color: rgb(3, 151, 3);
+  margin-top: -27px;
+  font-size: 18px;
+}
+
+.ex_5f_3{
+  font-family: Roboto;
+  color: rgb(111, 111, 111);
+  font-size: 18px;
+  margin-top: -10px;
+  
+
+}
+.ex_5f_4{
+  color: red;
+}
+
+.ex_5g{
+
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.ex_5g_1{
+  font-weight: normal;
+  color: rgb(100, 99, 99);
+}
+
+.ex_5g_2{
+  font-family: Roboto;
+  font-size: 20px;
+  width: 600px;
+  margin-top: -10px;
+}
+.ex_5g_3{
+  font-size: 20px;
+  
+}
+.ex_5g_4{
+  color: rgb(28, 155, 234);
+}
