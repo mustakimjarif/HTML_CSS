@@ -1,0 +1,49 @@
+.cat_image{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-top: 25px;
+}
+
+.box{
+  font-size: 18px;
+  border: none;
+  width: 300px;
+  vertical-align: middle;
+  margin-top: 28px;
+}
+.button
+{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: rgb(126, 20, 158);
+  color: white;
+  height: 40px;
+  width: 80px;
+  border: none;
+  vertical-align: middle;
+  margin-top: -60px;
+  margin-left: 330px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.5s opacity;
+}
+
+.button:hover{
+  opacity: 0.8;
+}
+.button:active{
+  opacity: 0.3;
+}
+.pic{
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  border: 1px;
+  border-radius: 5px;
+  width: 450px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}

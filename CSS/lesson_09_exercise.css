@@ -1,0 +1,53 @@
+.red_square
+{
+  background-color: rgb(225, 39, 39);
+  width: 100px;
+  height: 100px;
+}
+
+.green_circle 
+{
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  
+}
+.card{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(78, 77, 77);
+  width: 300px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+.title{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card_1{
+  background-color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(78, 77, 77);
+  width: 300px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.para_1{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 15px;
+}
+.para_2{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  padding-left: 15px;
+  width: 270px;
+}
