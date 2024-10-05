@@ -15,6 +15,7 @@
   vertical-align: middle;
   margin-top: 28px;
 }
+
 .button
 {
   font-size: 16px;
@@ -33,13 +34,16 @@
   transition: 0.5s opacity;
 }
 
-.button:hover{
+.button:hover
+{
   opacity: 0.8;
 }
 .button:active{
   opacity: 0.3;
 }
-.pic{
+
+.pic
+{
   box-shadow: 0 0 6px rgba(0,0,0,0.3);
   border: 1px;
   border-radius: 5px;
