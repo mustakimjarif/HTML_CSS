@@ -1,116 +1,55 @@
-/* General styles */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto Flex', sans-serif;
-  background-color: #f0f0f5; /* Soft light gray */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-/* Container for the image and text */
-.container {
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-  width: 350px;
-  padding: 20px;
-  transition: transform 0.3s ease;
-  text-align: center; /* Ensures elements are centered */
-}
-
-.container:hover {
-  transform: translateY(-5px); /* Slight hover effect */
-}
-
-/* Image container styling */
-.image-container {
-  margin-bottom: 15px;
-}
-
 .profile {
-  border-radius: 50%; /* Circular image */
-  width: 150px;
-  height: 150px;
-  object-fit: cover; /* Ensures image keeps aspect ratio */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
-  transition: box-shadow 0.3s ease;
+  width: 300px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  font-family: Roboto, Arial, sans-serif;
+  padding: 15px;
 }
 
-.profile:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Elevated shadow on hover */
+.profile_pic {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 15px;
 }
 
-/* Text container styling */
-.text-container {
+.profile-info {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-info .name {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+
+.profile-info .title {
+  color: gray;
   font-size: 12px;
-  text-align: center;
+  margin: 0;
 }
 
-.name {
-  font-size: 25px;
-  font-weight: 600; 
-  margin-bottom: 10px;
-  color: rgb(51, 51, 51);
-}
-
-.relation {
-  font-size: 1.2em;
-  color: rgb(156, 155, 155); 
-  margin-bottom: 5px;
-}
-
-.expression {
+.profile-info .status {
   font-size: 12px;
-  color: rgb(156, 155, 155); 
-  margin-bottom: 10px;
+  color: gray;
+  margin: 0;
 }
 
-/* Follow button styling */
-.follow {
-  width: 100px;
-  height: 35px;
+.follow-button {
+  background-color: #007bff;
+  color: white;
   border: none;
   border-radius: 5px;
-  background-color: rgb(61, 102, 205);
-  color: white;
-  font-size: 15px;
-  font-weight: bold;
-  margin-top: 15px;
+  padding: 8px 15px;
+  font-size: 14px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-.follow:hover {
-  background-color: rgb(41, 82, 185); /* Darker blue on hover */
-}
-
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-  .container {
-    width: 80%; /* Adjust width for tablet */
-  }
-
-  .follow {
-    width: 90px;
-    height: 30px;
-  }
-}
-
-@media (max-width: 480px) {
-  .container {
-    width: 90%; /* Further adjust width for mobile */
-  }
-
-  .profile {
-    width: 120px;
-    height: 120px;
-  }
-
-  .follow {
-    width: 80px;
-    height: 28px;
-  }
+.follow-button:hover {
+  background-color: #0056b3;
 }
