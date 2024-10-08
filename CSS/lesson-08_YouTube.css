@@ -1,0 +1,14 @@
+.thumbnail {
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  display: block;
+}
+
+.search-bar {
+  padding-left: 10px;
+}
+
+.video-title {
+  width: 300px;
+}
