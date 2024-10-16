@@ -1,0 +1,55 @@
+body 
+{
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.video-grid 
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.video-card 
+{
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail 
+{
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.video-info 
+{
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h3 
+{
+  font-size: 16px;
+  margin: 0;
+}
+
+p 
+{
+  margin: 0;
+  color: #555;
+}
+
+.video-info p:last-child 
+{
+  font-size: 12px;
+}

@@ -1,0 +1,55 @@
+.container{
+  text-align: center;
+}
+.logo{
+  width: 400px;
+  height: 200px;
+  margin-top: 100px;
+  object-fit: cover;
+}
+.textbox{
+  box-shadow: 0 0 0 0.5px rgba(0,0,0,0.8);
+  width: 450px;
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.google_button{
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.google_button:hover{
+  opacity: 0.8;
+}
+.google_button:active{
+  opacity: 0.5;
+}
+
+.search_button{
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.search_button:hover{
+  opacity: 0.8;
+}
+.search_button:active{
+  opacity: 0.5;
+}

@@ -1,0 +1,9 @@
+.thumbnail {
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-bar {
+  padding-left: 10px;
+}
